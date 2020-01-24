@@ -47,7 +47,7 @@ return "Hello, " + name;
 //Write a function expression called newGreeting.
 //Give it the same functionality as the function greeting in Problem 6.
 
-function newGreeting(name) {
+var newGreeting = function(name) {
   return "Hello, " + name;
 }
 
@@ -75,7 +75,7 @@ goodBoy: true
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-// dog.devMountainClassPet === true
+let devMountainClassPet = (dog.name);
 
 //////////////////PROBLEM 10////////////////////
 
@@ -122,7 +122,7 @@ function add(num1, num2) {
 // Now invoke add, passing in the numbers 3 and 4
 // storing the result in the variable mathSum.
 
-add(3, 4)
+mathSum = add(3, 4);
 
 //////////////////PROBLEM 12////////////////////
 
